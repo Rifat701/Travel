@@ -1,0 +1,280 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serifs;
+}
+.header{
+    width: 100%;
+    height: 657px;
+    background-image: url(https://images.pexels.com/photos/1004584/pexels-photo-1004584.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.logo{
+    color: white;
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+.logo p{
+    font-size: 18px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-left: 2px;
+    padding-right: -2px;
+    transition: .4s;
+}
+nav ul li a:hover{
+    color: white;
+}
+
+.content {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 10%;
+}
+.alingment p{
+    font-size: 30px;
+    color: black;
+
+}
+.alingment h1{
+    color: black;
+    font-size: 70px;
+    margin-top: 5%;
+    font-weight: bold;
+}
+.alingment button{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(188, 15, 73);
+    text-align: center;
+    font-size: 15px;
+    margin-top: 4%;
+    border: transparent;
+    color: white;
+    transition: .4s;
+    cursor: pointer;
+}
+.alingment button:hover{
+    background-color: transparent;
+    border: 1px solid black;
+    color: white;
+}
+
+.mdl{
+    width: 100%;
+    height: 850px;
+    background-color: white;
+    position: relative;
+}
+.mdl .aliment{
+    text-align: center;
+    margin-top: 3%;
+}
+.aliment p{
+    margin-top: 1%;
+}
+.aliment h1{
+    margin-top: 10%;
+    font-size: 50px;
+}
+.aliment img{
+    margin-top: 6%;
+    justify-content: space-between;
+    width: 550px;
+    height: 300px;
+}
+.imgone{
+    position: absolute;
+    left: 80px;
+}
+.imgone h3{
+    margin-top: 2%;
+}
+.imgone p{
+    font-size: 18px;
+}
+
+.imgone button{
+    font-size: 15px;
+    width: 110px;
+    height: 40px;
+    border-radius: 30px;
+    border: transparent;
+    background-color: rgb(200, 26, 84);
+    color: white;
+    margin-top: 1%;
+    transition: .4s;
+    cursor: pointer;
+}
+.imgone button:hover{
+    background-color: transparent;
+    border: 1.5px solid black;
+    color: black;
+}
+.imgtwo{
+    position: absolute;
+    right: 80px;
+}
+.imgtwo h3{
+    margin-top: 2%;
+}
+.imgtwo p{
+    font-size: 18px;
+}
+.imgtwo button{
+    font-size: 15px;
+    width: 110px;
+    height: 40px;
+    border-radius: 30px;
+    border: transparent;
+    background-color: rgb(200, 26, 84);
+    color: white;
+    margin-top: 1%;
+    transition: .4s;
+    cursor: pointer;
+}
+.imgtwo button:hover{
+    background-color: transparent;
+    border: 1.5px solid black;
+    color: black;
+}
+
+.explor{
+    background-image: url(https://images.pexels.com/photos/134068/pexels-photo-134068.jpeg?auto=compress&cs=tinysrgb&w=600);
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.in{
+    position: absolute;
+    right: 30px;
+    top: 30%;
+}
+.in h2{
+    font-size: 50px;
+}
+.in p{
+    font-size: 20px;
+    margin-top: 4%;
+}
+.in button{
+    font-size: 15px;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    border: transparent;
+    background-color: rgb(200, 26, 84);
+    color: white;
+    margin-top: 3%;
+    transition: .4s;
+    cursor: pointer;
+}
+.in button:hover{
+    background-color: transparent;
+    border: 1.5px solid black;
+    color: black;
+}
+
+.tour{
+    background-color: white;
+    height: 700px;
+    width: 100%;
+    position: relative;
+}
+
+.pstn{
+    position: absolute;
+    left: 110px;
+    top: 85px;
+}
+.pstn h2{
+    font-size: 45px;
+}
+.pstn p{
+    font-size: 16px;
+    margin-top: 7%;
+}
+.pstn button{
+    font-size: 15px;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    border: transparent;
+    background-color: rgb(200, 26, 84);
+    color: white;
+    margin-top: 5%;
+    transition: .4s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: transparent;
+    border: 1.5px solid black;
+    color: black;
+}
+.picture{
+    position: absolute;
+    left: 550px;
+    top: 85px;
+}
+.picture .picone{
+    width: 320px;
+    height: 180px;
+}
+.picture .pictwo{
+    position: absolute;
+    width: 320px;
+    margin: 3%;
+    height: 380px;
+    left: -9px;
+}
+.picture2{
+    position: absolute;
+    right: 140px;
+    top: 85px;
+}
+.picture2 .picone{
+    width: 320px;
+    height: 380px;
+}
+.picture2 .pictwo{
+    position: absolute;
+    width: 320px;
+    margin: 3%;
+    height: 180px;
+    left: -9px;
+}
+
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+.end h4{
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 300px;
+}
